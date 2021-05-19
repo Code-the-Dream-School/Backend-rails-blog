@@ -3,8 +3,6 @@ class CreateComments < ActiveRecord::Migration[5.0]
     create_table :comments do |t|
       t.text :content
       t.string :name
-      t.references :post, foreign_key: true
-
       t.timestamps
     end
   end

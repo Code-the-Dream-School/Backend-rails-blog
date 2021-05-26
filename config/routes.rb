@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
 
 
-  resources :pages
+  resources :pages 
   #get '/pages', to: 'pages#index'
   #post '/pages', to: 'pages#create'
   #get '/pages/new', to: 'pages#new', as: 'new_page' 
